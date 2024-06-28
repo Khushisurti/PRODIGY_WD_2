@@ -1,0 +1,46 @@
+body {
+    background-color: #575654a1; /* Lighter background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Update font for better readability */
+    color: white;
+}
+
+.stopwatch {
+    color: white;
+    background-color: #f8f9fa; /* Light gray background for stopwatch container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Enhanced box shadow for depth */
+}
+
+#display {
+    font-size: 4em; /* Larger font size for display */
+    font-weight: bold;
+    color: #343a40; /* Dark text color */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Increase bottom margin for separation */
+}
+
+#laps {
+    max-height: 150px; /* Reduced max height for lap list */
+    overflow-y: auto;
+    margin-top: 10px; /* Adjust margin for spacing */
+}
+
+.btn {
+    background-color: #5c6ac4; /* Custom primary color for buttons */
+    border-color: #5c6ac4;
+    color: #fff; /* White text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn:hover {
+    background-color: #434c9c; /* Darker color on hover */
+    border-color: #434c9c;
+}
+
+.btn:active,
+.btn:focus {
+    background-color: #303b80; /* Darker color on active/focus state */
+    border-color: #303b80;
+}
